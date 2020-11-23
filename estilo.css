@@ -1,0 +1,185 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Poppins;
+    font-weight: 200px;
+    color: gray;
+    background-color: #F8F6F6;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.h1{
+    margin-top: 20px;
+    color:  gray;
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+  
+}
+
+h1{
+    color: #363636;
+    margin-top: -20px;
+}
+
+h3{
+    color:  #363636;
+}
+
+.container1{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container2{
+    max-width: 1280px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.quadro1{
+    background-color:white;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 150px;
+    height: 250px;
+    border-top:5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0 10px 2px -2px #DCDCDC;
+
+}
+
+.quadro2{
+    background-color: white;
+    width: 25%;
+    margin-left: 20px;
+    height: 250px;
+    border-top:5px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0 10px 2px -2px #DCDCDC;
+}
+
+.quadro3{
+    background-color: white;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 150px;
+    height: 250px;    
+    border-top:5px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0 10px 2px -2px #DCDCDC;
+}
+.quadro4{
+    background-color: white;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: -110px;
+    height: 250px;
+    border-top:5px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0 10px 2px -2px #DCDCDC;
+}
+
+.icone-supervisor{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+}
+
+.icone-team{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+}
+
+.icone-calculator{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+}
+
+.icone-karma{
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+}
+
+@media screen and (max-width:800px){
+    .container1{
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+    }
+    p{
+        text-align: left;
+        font-size: 18px;
+        margin-left: 06px;
+    }
+
+    .container2{
+        max-width: 450px;
+        margin-left: -20px;
+    }
+
+   
+    .quadro1{
+        background-color:white;
+        width: 100%;
+        margin-top: 50px;
+        height: 250px;
+        border-top:5px solid hsl(180, 62%, 55%);
+        border-radius: 5px;
+        padding: 20px 25px;
+        box-shadow: 0 10px 2px -2px #DCDCDC;
+    
+    }
+    
+    .quadro2{
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        margin-top: 50px;
+        border-top:5px solid hsl(0, 78%, 62%);
+        border-radius: 5px;
+        padding: 20px 25px;
+        box-shadow: 0 10px 2px -2px #DCDCDC;
+    }
+    
+    .quadro3{
+        background-color: white;
+        width: 100%;
+        margin-top: 50px;
+        height: 250px;    
+        border-top:5px solid hsl(212, 86%, 64%);
+        border-radius: 5px;
+        padding: 20px 25px;
+        box-shadow: 0 10px 2px -2px #DCDCDC;
+    }
+    .quadro4{
+        background-color: white;
+        width: 100%;
+        margin-top: 50px;
+        height: 250px;
+        border-top:5px solid hsl(34, 97%, 64%);
+        border-radius: 5px;
+        padding: 20px 25px;
+        box-shadow: 0 10px 2px -2px #DCDCDC;
+    }
+}
