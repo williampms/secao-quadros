@@ -121,7 +121,7 @@ h3{
     float: right;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:980px){
     .container1{
         max-width: 400px;
         width: 100%;
